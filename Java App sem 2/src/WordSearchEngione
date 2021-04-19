@@ -27,7 +27,7 @@ public class WordSearchEngine implements ActionListener
 	JFrame frame;
 	JPanel panel;
 	JButton button;
-	JTextField userText, userDirectory;
+	JTextField userText;
 	JLabel searchLabel, directoryLabel;
 	JLabel result1, result2, result3;
 
@@ -50,16 +50,6 @@ public class WordSearchEngine implements ActionListener
 		userText = new JTextField(20);
 		userText.setBounds(150,20,270,25);
 		panel.add(userText);
-		
-		//Label
-		directoryLabel = new JLabel("Enter Directory here:");
-		directoryLabel.setBounds(10,150,250,25);
-		panel.add(directoryLabel);
-		
-		//Text field for the directory
-		userDirectory = new JTextField(100);
-		userDirectory.setBounds(150,150,270,25);
-		panel.add(userDirectory);
 		
 		//Button to search
 		button = new JButton("Search");
