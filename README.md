@@ -1,4 +1,4 @@
-# OOP-Java-App
+# Java Word Search
 Java app semester 2 assignment
 
 ReadMe - C19464094
